@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Counter</title>
+</head>
+<body>
+<p>Current counter value: {{ counter.total }}</p>
+    <form action="/addincrement" method="POST">
+        {% csrf_token %}
+        {{ numberField }}
+        <input type="submit" class="button" value="Set increment">
+    </form>
+</body>
+</html>
