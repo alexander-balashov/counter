@@ -15,6 +15,7 @@ Web application
 ```jshelllanguage
 ./start_app.sh
 ```
+5. Web app will be available on `localhost:8000`
 
 ### Environment variables
 - ROOT_PASSWORD - root password to connect to database. By default: qwerty
